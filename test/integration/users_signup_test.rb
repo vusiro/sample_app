@@ -9,5 +9,9 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
                                          password_confirmation: "bar" } }
     end
     assert_template 'users/new'
+    def is_logged_in?
+    !session[:user_id].nil?
+  end
+
   end
 end
