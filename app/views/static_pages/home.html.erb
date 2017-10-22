@@ -2,16 +2,11 @@
   <h1><%= t("welcome")%></h1>
 
   <h2>
-    t"Thisis"
+    <%= t "thisis" %>
     <%= link_to t("ror"), "http://www.railstutorial.org/" %>
-    t"samapp"
+    <%= t "samapp" %>
   </h2>
 
   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>
-
-<%= link_to image_tag("kitten.jpg", alt: "Rails logo"),
-            'http://rubyonrails.org/' %>

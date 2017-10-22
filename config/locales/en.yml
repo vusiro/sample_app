@@ -19,3 +19,5 @@ en:
   rails help section: "Rails Tutorial help section"
   thisis: "This is the home page for the"
   samapp: "sample application"
+  Welcome to the Sample App!: "Welcome to the Sample App!"
+  Invalid email/password combination: "Invalid email/password combination"
